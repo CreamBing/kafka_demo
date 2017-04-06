@@ -23,6 +23,7 @@ public class Producer {
 		try {
 			Thread.sleep(100000);
 		} catch (InterruptedException e) {
+
 			e.printStackTrace();
 		}
 		ctx.close();
